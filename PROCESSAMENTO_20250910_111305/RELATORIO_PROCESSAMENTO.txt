@@ -1,0 +1,35 @@
+============================================================
+RELATÓRIO DE PROCESSAMENTO DE DADOS
+============================================================
+Data/Hora: 10/09/2025 11:13:08
+Arquivo original: URA_AGUASR_09092025_171734.csv
+Total de registros originais: 328,783
+Total de registros processados: 317,353
+Telefones duplicados removidos: 11,430
+Arquivos gerados: 13
+Registros por arquivo: 25.000 (exceto o último)
+
+============================================================
+ESTRUTURA DE ARQUIVOS:
+============================================================
+📁 S:\BACKOFFICE\Controle de Discadores e Uras\Uras\URA AGUAS BASE TODA\
+  📄 URA_AGUASG_10_09_2025_1.csv
+  📄 URA_AGUASG_10_09_2025_2.csv
+  📄 ... (até 13)
+
+📁 PROCESSAMENTO_YYYYMMDD_HHMMSS/ (backup local)
+  📄 CLIENTES_PROCESSADOS_COMPLETO.csv
+  📄 RELATORIO_PROCESSAMENTO.txt
+  📁 backup_original/
+    📄 URA_AGUASR_09092025_171734.csv
+📁 ARQUIVOS_ORIGINAIS/ (pasta global)
+  📄 URA_AGUASR_09092025_171734.csv (movido da pasta principal)
+
+============================================================
+COLUNAS DOS ARQUIVOS:
+============================================================
+Coluna A: Código único (4 letras + 4 números) - MESMO para todas as linhas
+Coluna B: Nomes dos clientes
+Coluna C: Números de telefone únicos
+Separador: Ponto e vírgula (;)
+Encoding: UTF-8
